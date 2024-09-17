@@ -42,7 +42,7 @@ jobs:
         uses: psf/black@stable
         with:
           options: "--check --verbose"
-          src: "./telegram_group_counter.py"
+          src: "./scripts"
 
   codespell:
     runs-on: ${{ matrix.os }}
@@ -84,4 +84,4 @@ jobs:
         run: gem install awesome_bot
 
       - name: Validate URLs
-        run: awesome_bot ./*.md ./*.py --allow-redirect --request-delay 0.4 --white-list https://github.com/pcaversaccio/telegram-group-counter.git
+        run: awesome_bot ./*.md scripts/*.py --allow-redirect --request-delay 0.4 --white-list https://github.com/pcaversaccio/telegram-group-counter.git
