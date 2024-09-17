@@ -50,4 +50,8 @@ python telegram_group_counter.py
 
 The script will output the number of Telegram groups you're a member of 🫡.
 
+```console
+You are in 123 Telegram groups.
+```
+
 [^1]: To get the Telegram API credentials go to [`my.telegram.org`](https://my.telegram.org) and log in with your phone number. Now click on `API development tools` and create a new application by filling in the required fields. Once created, you'll see your `api_id` (a number) and `api_hash` (a string).
