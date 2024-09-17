@@ -32,9 +32,9 @@ pip install -r requirements.txt
 4. Create a `.env` file in the project root and add your Telegram API credentials[^1]:
 
 ```txt
-API_ID=your_api_id
-API_HASH=your_api_hash
-PHONE_NUMBER=your_phone_number
+API_ID="your_api_id"
+API_HASH="your_api_hash"
+PHONE_NUMBER="your_phone_number"
 ```
 
 > [!CAUTION]
