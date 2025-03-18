@@ -1,7 +1,7 @@
 # Telegram Group Counter
 
 [![👮‍♂️ Sanity checks](https://github.com/pcaversaccio/telegram-group-counter/actions/workflows/checks.yml/badge.svg)](https://github.com/pcaversaccio/telegram-group-counter/actions/workflows/checks.yml)
-[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-blue.svg)](http://www.wtfpl.net/about/)
+[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-blue.svg)](https://www.wtfpl.net/about/)
 
 The Python script [`telegram_group_counter.py`](./scripts/telegram_group_counter.py) allows you to programmatically count the number of Telegram groups you're a member of using the [Telegram API](https://core.telegram.org) and the [Telethon](https://github.com/LonamiWebs/Telethon) library.
 
