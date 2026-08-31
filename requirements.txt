@@ -1,2 +1,2 @@
-python-dotenv==1.2.2
+python-dotenv==1.2.3
 Telethon==1.44.0
